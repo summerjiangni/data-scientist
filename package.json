@@ -1,0 +1,21 @@
+{
+    "name": "data-scientist",
+    "version": "1.0.0",
+    "description": "### data-scientist https://github.com/summerjiangni/data-scientist.git",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com:summerjiangni/data-scientist.git"
+    },
+    "author": "summerjiangni",
+    "license": "ISC",
+    "scripts": {
+        "plop": "plop"
+    },
+    "bugs": {
+        "url": "https://github.com/summerjiangni/data-scientist.git/issues"
+    },
+    "homepage": "https://github.com/summerjiangni/data-scientist.git#readme",
+    "devDependencies": {
+        "plop": "^3.1.1"
+    }
+}

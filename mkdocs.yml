@@ -1,0 +1,116 @@
+site_name: data-scientist
+repo_url: https://github.com/summerjiangni/data-scientist
+repo_name: summerjiangni/data-scientist
+site_dir: public
+theme:
+  name: material
+  include_search_page: false
+  search_index_only: true
+  language: en
+  highlightjs: true
+  hljs_languages:
+  # https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
+    - yaml
+    - rust
+    - java
+    - javascript
+    - julia
+    - kotlin
+    - lua
+    - nginx
+    - puppet
+    - ruby
+    - swift
+    - typescript
+    - yml
+    - tsql
+    - pgsql
+    - postgres
+    - postgresql
+    - ocaml
+    - xml
+    - html
+    - xhtml
+    - xsd
+    - xsl
+    - groovy
+    - json
+    - python
+    - py
+
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.indexes
+nav:
+  - Home: index.md
+  - mkdocs.md
+plugins:
+  - search
+  - render_swagger
+  - git-revision-date:
+      enabled_if_env: CI
+  - git-authors
+  - git-revision-date-localized:
+      type: date
+  - table-reader
+  - techdocs-core
+  - neoteroi.mkdocsoad:
+      use_pymdownx: true
+extra:
+  version:
+    method: mike
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/neoteroi-cards.css
+  - stylesheets/neoteroi-gantt.css
+  - stylesheets/neoteroi-mkdocs.css
+  - stylesheets/neoteroi-mkdocs.min.css
+  - stylesheets/neoteroi-spantable.css
+  - stylesheets/neoteroi-timeline.css
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui.min.css
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-bundle.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-es-bundle-core.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-es-bundle.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-standalone-preset.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui.min.js
+
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-bundle.js.map
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-es-bundle-core.js.map
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-es-bundle.js.map
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui-standalone-preset.js.map
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui.css.map
+  - https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.1/swagger-ui.js.map
+  - javascripts/tables.js
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - admonition
+  - tables
+  - md_in_html
+  - def_list
+  - neoteroi.timeline
+  - neoteroi.cards
+  - neoteroi.projects
+  - neoteroi.mkdocsoad
+  - neoteroi.spantable
+  - neoteroi.contribs
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  # - attr_list:
+  #     - pymdownx.emoji:
+  #         emoji_index: !!python/name:materialx.emoji.twemoji
+  #         emoji_generator: !!python/name:materialx.emoji.to_svg

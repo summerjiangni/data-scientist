@@ -1,0 +1,15 @@
+mkdocs
+mkdocs-material
+Pygments
+pymdown-extensions
+markdown
+mkdocs-redirects
+mkdocs-literate-nav
+mkdocs-git-revision-date-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-authors-plugin
+mkdocs-table-reader-plugin
+mkdocs-techdocs-core
+mkdocs_monorepo_plugin
+mkdocs-render-swagger-plugin
+neoteroi-mkdocs
