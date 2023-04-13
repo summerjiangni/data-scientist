@@ -9,7 +9,7 @@ theme:
   language: en
   highlightjs: true
   hljs_languages:
-  # https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
+    # https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md
     - yaml
     - rust
     - java
@@ -44,7 +44,34 @@ theme:
     - navigation.indexes
 nav:
   - Home: index.md
-  - mkdocs.md
+  - data-scientist:
+      - data-scientist\data-scientist.md
+      - data-scientist\learning-path.md
+  - environments:
+      - environments\environment.md
+  - jupyter:
+      - jupyter\ide.md
+      - jupyter\matplotlib.md
+      - jupyter\notebook.md
+      - jupyter\numpy.md
+      - jupyter\pandas.md
+      - jupyter\sql.md
+  - database:
+      - database\constraints.md
+      - database\database-design.md
+      - database\indexes.md
+      - database\ofbiz-human-resources.md
+      - database\ofbiz-manufacturing.md
+      - database\ofbiz-marketing.md
+      - database\ofbiz-order.md
+      - database\ofbiz-party.md
+      - database\ofbiz-product.md
+      - database\ofbiz-shipment.md
+      - database\partitioning.md
+      - database\queries.md
+      - database\sorting.md
+      - database\sql-tuning.md
+
 plugins:
   - search
   - render_swagger
@@ -95,12 +122,12 @@ markdown_extensions:
   - tables
   - md_in_html
   - def_list
-  - neoteroi.timeline
-  - neoteroi.cards
-  - neoteroi.projects
-  - neoteroi.mkdocsoad
-  - neoteroi.spantable
-  - neoteroi.contribs
+  # - neoteroi.timeline
+  # - neoteroi.cards
+  # - neoteroi.projects
+  # - neoteroi.mkdocsoad
+  # - neoteroi.spantable
+  # - neoteroi.contribs
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:

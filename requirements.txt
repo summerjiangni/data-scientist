@@ -13,3 +13,7 @@ mkdocs-techdocs-core
 mkdocs_monorepo_plugin
 mkdocs-render-swagger-plugin
 neoteroi-mkdocs
+requests
+markdown
+mkdocs-kroki-plugin
+mkdocs_puml

@@ -27,11 +27,11 @@ mkdocs gh-deploy
 ```
 
 ## netlify  
-https://internal-developer-platform.netlify.app/  
 
 ## references    
-| item      | link(s)                              |
-| --------- | ------------------------------------ |
-| backstage | https://backstage.io/                |
-| roadie    | https://roadie.io/backstage-spotify/ |
-| humanitec | https://humanitec.com/               |
+| item                                                            | link(s)                                                                      |
+| --------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| datacamp.com/data-science                                       | https://www.datacamp.com/blog/category/data-science                          |
+| jupyter                                                         | https://jupyter.org/                                                         |
+| What Is a Data Scientist? Salary, Skills, and How to Become One | https://www.coursera.org/articles/what-is-a-data-scientist                   |
+| What Does a Data Analyst Do? Your 2023 Career Guide             | https://www.coursera.org/articles/what-does-a-data-analyst-do-a-career-guide |

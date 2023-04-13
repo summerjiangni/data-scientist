@@ -71,3 +71,4 @@ buck-out/
 .netlify
 
 node_modules/
+venv/
